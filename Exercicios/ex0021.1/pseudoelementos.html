@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes e elementos</title>
+    <style>
+        @font-face {
+            font-family: 'book';
+            src: url(font/PEOPLE\ BOOK.otf)
+        }
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        div {
+            display: block;
+            text-align: center;
+        }
+        a {
+            text-decoration:none;
+        }
+        a:hover {
+            font-family: 'book'
+
+            }
+            
+        .special:hover {
+            background-color: red;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Title de links</h1>
+    <div>
+        <li><a href="https://www.youtube.com/watch?v=tVKtLfFD8Po&list=OLAK5uy_m4kdQWD-a3CaWYnALXjCGlcH30s0oIEgw&index=3">Link 01 - Better</a></li>
+        <li><a href="https://www.youtube.com/watch?v=VWiX-MKTUTY&list=OLAK5uy_m4kdQWD-a3CaWYnALXjCGlcH30s0oIEgw&index=12">Link 02 - Madagascar </a></li>
+        <li><a href="https://www.youtube.com/watch?v=7kPHj6QrLbU&list=OLAK5uy_m4kdQWD-a3CaWYnALXjCGlcH30s0oIEgw&index=12">Link 03 - IRS </a></li>
+        <li class="special" ><a href="https://www.youtube.com/watch?v=UyKpLftLBtY">Link 04 - Musica secreta</a></li>
+    </div>
+    
+</body>
+</html>

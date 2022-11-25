@@ -1,0 +1,32 @@
+@chaset 'UTF-8';
+
+body {
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    color: rgb(85, 146, 126);
+}
+
+h1#principal {
+ text-align: center;
+ background-color: rgba(99, 124, 103, 0.858);
+ color: rgb(255, 255, 255);
+}
+h2 {
+    color: rgb(95, 175, 149);
+}
+
+.basico {
+color: rgba(5, 221, 149, 0.616);
+}
+.intermediario {
+    color: rgba(251, 235, 3, 0.799);
+}
+.avancado {
+    color: rgb(166, 2, 2);
+}
+
+.destaque {
+    background-color: rgb(0, 0, 0);
+}
