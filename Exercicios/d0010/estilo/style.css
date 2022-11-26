@@ -58,7 +58,7 @@ header {
 }
 
 header > p {
-    color: rgba(255, 255, 255, 0.841);
+    color: rgba(35, 237, 62, 0.841);
     font-family: 'riscado';
     font-size: 1.2em;
     max-width: 600px;
