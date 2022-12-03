@@ -5,7 +5,9 @@
 
 body {
     text-align: center;
-}
+    background-image: linear-gradient(to bottom, aqua, rgba(0, 0, 0, 0.584));
+    height:100vh;     
+    }
 
 header > h1 { 
     font-family: 'roboto';
