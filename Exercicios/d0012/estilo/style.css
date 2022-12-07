@@ -1,5 +1,17 @@
 @charset 'UTF-8'
 
+@font-face {
+    font-family: 'paixao one';
+    src: url('../fontes/PassionOne-Bold.ttf') format(opentype);
+}
+
+@font-face {
+    font-family: 'sri';
+    src: url('../fontes/Sriracha-Regular.ttf') format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Passion+One:wght@400;700;900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,11 +26,14 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Passion one';
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: 'Passion one';
+    font-size: 5vw;
 }
 
 header > p {
@@ -40,6 +55,9 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'sri';
+    font-size: 2vw;
+    
 }
 section.normal { 
     background-color: white;
@@ -53,7 +71,9 @@ section.imagem {
 }
 
 section.imagem > p { 
+    display: inline-block;
     width: 400px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.703);
 }
 
